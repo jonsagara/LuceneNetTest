@@ -4,7 +4,6 @@ using Lucene.Net.Index;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
 using Lucene.Net.Util;
-using static Lucene.Net.Util.Packed.PackedInt32s;
 using LuceneDirectory = Lucene.Net.Store.Directory;
 
 // Specify the compatibility version we want
