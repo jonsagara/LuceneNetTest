@@ -6,12 +6,14 @@ using Lucene.Net.Store;
 using Lucene.Net.Util;
 using LuceneDirectory = Lucene.Net.Store.Directory;
 
+
+//
+// From the Quick Start Tutorial: https://lucenenet.apache.org/quick-start/tutorial.html
+//
+
 // Specify the compatibility version we want
 const LuceneVersion _luceneVersion = LuceneVersion.LUCENE_48;
 
-//// Construct a machine-independent path for the index
-//var basePath = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
-//var indexPath = Path.Combine(basePath, "example_index");
 
 //
 // Open the Directory using a Lucene Directory class.

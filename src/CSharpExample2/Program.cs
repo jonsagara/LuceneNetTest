@@ -8,6 +8,11 @@ using Lucene.Net.Store;
 using Lucene.Net.Util;
 using LuceneDirectory = Lucene.Net.Store.Directory;
 
+
+//
+// From the Quick Start Tutorial: https://lucenenet.apache.org/quick-start/tutorial.html
+//
+
 // Specify the compatibility version we want
 const LuceneVersion _luceneVersion = LuceneVersion.LUCENE_48;
 
