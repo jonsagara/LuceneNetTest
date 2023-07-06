@@ -36,6 +36,7 @@ var analyzer = new StandardAnalyzer(_luceneVersion);
 //
 
 var indexConfig = new IndexWriterConfig(_luceneVersion, analyzer);
+indexConfig.OpenMode = OpenMode.CREATE;
 using var writer = new IndexWriter(indexDir, indexConfig);
 
 
