@@ -78,7 +78,6 @@ var searcher = new IndexSearcher(reader);
 var query = new TermQuery(new Term(fld: "domain", text: "lucenenet.apache.org"));
 var topDocs = searcher.Search(query, n: 2); // Indicate we want the first 2 results.
 
-var numMatchingDocs = topDocs.TotalHits;
 var resultDoc = searcher.Doc(topDocs.ScoreDocs[0].Doc); // Read back the first doc from the results (i.e., offset 0).
 var title = resultDoc.Get("title");
 

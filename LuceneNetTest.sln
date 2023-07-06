@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpExample2", "src\CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpExample3", "src\CSharpExample3\CSharpExample3.csproj", "{E02F650C-52C5-4939-B7F4-17F29B19580B}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpExample1", "src\FSharpExample1\FSharpExample1.fsproj", "{4887D2A1-694E-448B-AC7F-07BA80C2E259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{E02F650C-52C5-4939-B7F4-17F29B19580B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02F650C-52C5-4939-B7F4-17F29B19580B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02F650C-52C5-4939-B7F4-17F29B19580B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4887D2A1-694E-448B-AC7F-07BA80C2E259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4887D2A1-694E-448B-AC7F-07BA80C2E259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4887D2A1-694E-448B-AC7F-07BA80C2E259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4887D2A1-694E-448B-AC7F-07BA80C2E259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
